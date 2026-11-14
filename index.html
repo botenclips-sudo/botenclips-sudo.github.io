@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LowTorch Games</title>
+<meta name="description" content="LowTorch Games is an independent studio making dark fantasy mobile games. Home of Dark Spire: Idle Tower Defense.">
+<link rel="icon" href="img/favicon.png">
+<style>
+:root{--bg:#0e0b10;--panel:#1a1419;--line:#3a2a26;--text:#efe6dc;--muted:#b3a597;--ember:#ff8a3d;--gold:#f2c96b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--gold)}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:15px}
+.brand span{color:var(--ember)}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:14px}
+nav a:hover{color:var(--text)}
+.hero{border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#000}
+.hero img{display:block;width:100%;height:auto}
+.game{display:flex;gap:20px;align-items:center;margin:32px 0 12px}
+.game img{width:96px;height:96px;border-radius:22px;flex:none;box-shadow:0 0 0 1px var(--line),0 8px 30px rgba(255,138,61,.25)}
+h1{font-size:30px;line-height:1.2;margin:0 0 4px}
+h2{font-size:20px;margin:40px 0 12px}
+.tag{color:var(--muted);margin:0}
+.btn{display:inline-block;margin-top:14px;padding:10px 18px;border-radius:999px;background:var(--ember);color:#1a0d05;font-weight:700;text-decoration:none}
+.soon{display:inline-block;margin-top:14px;padding:10px 18px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.shots{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.shots img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);display:block}
+ul.feat{padding-left:20px;color:var(--muted)} ul.feat b{color:var(--text)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:48px;padding:20px 0 40px}
+@media (max-width:640px){.shots{grid-template-columns:repeat(2,1fr)} h1{font-size:24px} .game img{width:72px;height:72px;border-radius:16px} nav a{margin-left:12px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Low<span>Torch</span> Games</div>
+    <nav><a href="#games">Games</a><a href="#support">Support</a><a href="https://botenclips-sudo.github.io/dark-spire-privacy/privacy-policy.html">Privacy</a></nav>
+  </header>
+
+  <div class="hero"><img src="img/banner.jpg" alt="Dark Spire: a lone fortress holds against waves of the dead" width="1024" height="500"></div>
+
+  <section id="games">
+    <div class="game">
+      <img src="img/dark-spire-icon.png" alt="Dark Spire app icon" width="96" height="96">
+      <div>
+        <h1>Dark Spire: Idle Tower Defense</h1>
+        <p class="tag">One lone spire, seven weapons and endless waves of the dead.</p>
+        <span class="soon">Coming soon to Google Play</span>
+      </div>
+    </div>
+    <ul class="feat">
+      <li><b>Hold the last fortress</b> against undead hordes across six realms.</li>
+      <li><b>Seven weapons</b> to upgrade mid-fight, from cannons to Spectral Archers.</li>
+      <li><b>Draft blessings</b>, call down the Wrath of the Spire and break colossal bosses.</li>
+      <li><b>Plays offline</b>, in short idle sessions or long strategy sieges.</li>
+    </ul>
+    <div class="shots">
+      <img src="img/shot1.jpg" alt="A boss fight" loading="lazy" width="540" height="960">
+      <img src="img/shot2.jpg" alt="The Wrath of the Spire" loading="lazy" width="540" height="960">
+      <img src="img/shot3.jpg" alt="A new realm" loading="lazy" width="540" height="960">
+      <img src="img/shot4.jpg" alt="Choosing a blessing" loading="lazy" width="540" height="960">
+    </div>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <div class="card">
+      Questions, bugs or purchase problems? Email <a href="mailto:darkspire.support@gmail.com">darkspire.support@gmail.com</a> and we will get back to you.
+      You can also use <b>Settings, Send feedback</b> inside the game.
+    </div>
+  </section>
+
+  <footer>
+    © 2026 LowTorch Games ·
+    <a href="https://botenclips-sudo.github.io/dark-spire-privacy/privacy-policy.html">Privacy policy</a> ·
+    <a href="mailto:darkspire.support@gmail.com">Contact</a>
+  </footer>
+</div>
+</body>
+</html>
